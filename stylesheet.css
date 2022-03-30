@@ -1,15 +1,4 @@
 body {
-    --primary-color: #22252D;
-    --sec-color: #521645;
-    --other-color: #8b5577;
-    --input-color: #631a53;
-    --sec-input-color: rgba(255, 255, 255, .6);
-
-   
-}
-
-
-body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -35,7 +24,7 @@ body {
     justify-content: space-between;
     background: #8b5577 ;
     overflow: hidden;
-    color: var(--input-color);
+    color: #631a53;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -56,7 +45,7 @@ body {
     outline: none;
     margin-top: 10px;
     width: 90%;
-    color: var(--input-color);
+    color: #631a53;
     font-family: monospace;
     font-weight: bold;
 }
@@ -64,7 +53,7 @@ body {
 .result-input-kecil {
     height: 30px;
     font-size: 30px;
-    color: var(--sec-input-color);
+    color: rgba(255, 255, 255, .6);
 }
 
 .result-input-besar {
@@ -74,7 +63,7 @@ body {
 
 .body-calculator {
     height: 300px;
-    background: var(--sec-color);
+    background: #521645;
     border-radius: 20px 20px 0px 0px;
     padding-top: 20px;
     display: flex;
@@ -136,28 +125,10 @@ body {
 }
 
 
-footer {
-    padding: 0px;
-    text-align: center;
-    background: var(--primary-color);
-    color: var(--footer-color);
-}
-
 footer>a {
     color: var(--input-color);
     font-weight: bold;
     text-decoration: none;
-}
-
-.btn-copy {
-    left: 135px;
-    width: 80px;
-    align-items: center;
-    justify-content: center;
-    color: var(--btn-copy-color);
-    cursor: pointer;
-    display: none;
-    font-size: 25px;
 }
 
 
