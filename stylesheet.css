@@ -92,7 +92,7 @@ body {
     width: 22%;
     min-width: 50px;
     height: 40px;
-    background: var(--other-color);
+    background: #8b5577;
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -129,3 +129,4 @@ footer>a {
     font-weight: bold;
     text-decoration: none;
 }
+
