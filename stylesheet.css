@@ -123,3 +123,9 @@ body {
 .item-red-2 {
     color: #26D7B8 !important;
 }
+
+footer>a {
+    color: #631a53;
+    font-weight: bold;
+    text-decoration: none;
+}
